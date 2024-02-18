@@ -1,0 +1,167 @@
+/* Общие стили */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-image: url('img.jpg');
+    background-size: cover, auto; /* Установите размеры фоновых изображений */
+    background-position: center; /* Установите позиции фоновых изображений */
+    color: rgb(0, 0, 0);
+    list-style: none;
+}
+
+header {
+background-color: #000000;
+color: #fff;
+padding: 10px;
+background-image: url('Art.jpg');
+background-position: center; 
+background-size: 40%;
+background-repeat: no-repeat; 
+}
+
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+nav ul li {
+display: inline;
+margin-right: 20px;
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+}
+
+nav ul li a:hover {
+color: #176186; /* Цвет при наведении курсора */
+font-size: 20px; /* Увеличиваем размер шрифта при наведении */
+transition: font-size 0.3s ease;
+}
+
+.main {
+padding: 10px;
+}
+
+.text-block {
+border-radius: 30px;
+background: rgb(196, 196, 196, 0.7);
+height: 100px;
+text-align: center;
+}
+
+.text-block h3 {
+margin-top: 30px; /* Убираем верхний отступ у заголовка */
+}
+.hero {
+
+background-size: cover;
+background-position: center;
+color: #fff;
+text-align: center;
+padding: 100px;
+}
+
+.hero h2 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+.hero p {
+font-size: 18px;
+margin-bottom: 30px;
+}
+
+.text-block {
+border-radius: 30px;
+background-color: rgba(196, 196, 196, 0.7);
+padding: 10px;
+margin-top: 30px;
+max-width: 80%;
+}
+
+.btn:hover {
+background-color: #176186;
+}
+footer {
+background-color: #050505;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+.text-blockone {
+border-radius: 30px;
+background: rgb(196, 196, 196, 0.7);
+height: auto;
+text-align: left;
+left: 44px;
+right: 663px;
+top: 569px;
+padding: 10px;
+margin-top: 30px;
+width: auto;
+max-width: 80%; /* Ширина блока не более 90% ширины экрана */ 
+}
+.text-blockprice {
+border-radius: 30px;
+background: rgb(196, 196, 196, 0.7);
+height: 550px;
+text-align: left;
+left: 44px;
+right: 663px;
+top: 569px;
+padding: 10px;
+margin-top: 30px;
+width: 100%;
+max-width: 80%; 
+}
+.text-blockcontact {
+border-radius: 30px;
+background: rgb(196, 196, 196, 0.7);
+height: auto;
+text-align: left;
+left: 44px;
+right: 663px;
+top: 569px;
+padding: 10px;
+margin-top: 30px;
+width: auto;
+max-width: 40%; 
+}
+
+.instagram-icon {
+background-image: url('Instagram-Link.png');
+background-size: contain; /* Размеры изображения сохраняются, чтобы оно поместилось в контейнер */
+width: 100px; /* Ширина изображения */
+height: 100px; /* Высота изображения */
+position: absolute; /* Позиционирование относительно родительского контейнера */
+bottom: 20px; /* Отступ снизу */
+left: 50%; /* Размещение по горизонтали в середине */
+transform: translateX(-50%); /* Центрирование по горизонтали */
+}
+
+@media screen and (max-width: 768px) {
+body {
+padding: 5px;
+background-size: cover, center;
+background-position: center;
+}
+
+header {
+padding: 5px;
+}
+    .text-block {
+        height: auto;
+        width: auto;
+    text-align: center;
+
+    }
+
+.map-container iframe {
+    width: 100%; 
+}
+}
