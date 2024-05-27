@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Art Line</title>
     <link rel="stylesheet" href="styles.css"> <!-- Подключаем файл стилей CSS -->
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -48,6 +49,20 @@
         <a class="instagram-link" href="https://www.instagram.com/artline_dental/?igsh=MXQ0N2xpdnFyNjcxNg%3D%3D">
             <img src="Instagram-Link.png" alt="Instagram">
         </a>    
+        <h2>Можете написати нам на <a href="mailto:artline_dental@gmail.com">artline_dental@gmail.com</a> 
+            <br>або скористайтесь формою зворотнього зв'язку:</h2>
+        <form id="contact-form">
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="name">Телефон:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Повідомлення:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Надіслати</button>
+        </form>
     </section>
 
     <footer>
